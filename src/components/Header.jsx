@@ -4,8 +4,8 @@ import { getUser } from '../services/userAPI';
 import Loading from './Loading';
 
 class Header extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       userName: '',
       loading: true,
