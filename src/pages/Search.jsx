@@ -60,8 +60,8 @@ class Search extends React.Component {
     const MIN_CARACTHERS = 2;
     return (
       <div data-testid="page-search">
-        { loading && <Loading />}
         <Header />
+        { loading && <Loading />}
         <form action="submit">
           <input
             type="text"
